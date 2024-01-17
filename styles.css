@@ -1,0 +1,151 @@
+
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+:root {
+    --background4: #4e3a48;
+}
+
+
+/* --------------global-----------------  */
+
+body {
+    background-color: var(--background4);
+    padding: 0px;
+    margin: 0px;
+    /* margin: 6px 4vw; */
+}
+
+
+
+/* ----------header------------ */
+
+.logo {
+    margin: 0 auto;
+    padding: 2vh 4vw 5vw 4vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+/* -------------Main--------------- */
+
+.home {
+    width: 100%;
+    height: 150px;
+    background-image: url(world\ cuisine.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+
+/* -----------------New menu-------------------*/
+/* Card */
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: 70%;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+}
+.new-arrivals h2{
+  color: aliceblue;
+}
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px #111;
+  }
+  
+
+/* -------------------About Us-------------  */
+
+.about {
+    background-color: rgba(235, 188, 135, 0.418);
+    padding-bottom: 40px;
+    font-family: cursive;
+  }
+
+.about>h2 {
+    padding-top: 40px;
+}
+
+.about>p {
+    margin: 0px 2vw;
+    font-size: 10px;
+    line-height: 40px;
+}
+
+.about>h5 {
+    font-size: 30px;
+    margin-left: 2vw;
+}
+
+/* -------------footer----------------- */
+
+
+#footer-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* ------------Responsive------------- */
+
+
+
+@media screen and (max-width:880px) {
+    .review-content {
+        width: 75vw;
+    }
+}
+
+
+
+
